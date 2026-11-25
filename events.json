@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-11-02T03:19:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.8.125.58",
+    "destination_ip": "192.168.1.189",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-11-04T22:57:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.18.216.9",
+    "destination_ip": "192.168.0.24",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-11-02T04:59:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.17.101.184",
+    "destination_ip": "192.168.5.180",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-11-13T15:51:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.0.81.179",
+    "destination_ip": "192.168.3.88",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-11-16T07:39:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.3.47.98",
+    "destination_ip": "192.168.0.92",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-11-02T23:27:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.63.250",
+    "destination_ip": "192.168.3.21",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-11-17T11:00:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.18.98.181",
+    "destination_ip": "192.168.0.12",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-11-11T14:16:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.3.194.72",
+    "destination_ip": "192.168.3.163",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-11-10T12:50:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.8.36.156",
+    "destination_ip": "192.168.5.44",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-11-22T00:54:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.138.254",
+    "destination_ip": "192.168.5.177",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-11-03T13:05:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.7.16.207",
+    "destination_ip": "192.168.2.103",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-11-15T07:42:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.6.255.102",
+    "destination_ip": "192.168.5.118",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-11-12T22:59:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.219.230",
+    "destination_ip": "192.168.4.103",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-11-07T07:05:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.16.252.24",
+    "destination_ip": "192.168.0.221",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-11-20T05:06:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.19.32.99",
+    "destination_ip": "192.168.3.153",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-11-01T12:32:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.3.136.197",
+    "destination_ip": "192.168.5.88",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-11-21T15:35:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.0.134.249",
+    "destination_ip": "192.168.4.196",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-11-14T13:58:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.20.101.40",
+    "destination_ip": "192.168.2.196",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-11-01T00:37:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.19.165.126",
+    "destination_ip": "192.168.0.29",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-11-11T23:05:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.40.22",
+    "destination_ip": "192.168.5.125",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-11-06T20:14:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.15.84.68",
+    "destination_ip": "192.168.4.224",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-11-10T03:42:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.9.204.172",
+    "destination_ip": "192.168.5.96",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-11-12T06:46:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.7.32.87",
+    "destination_ip": "192.168.0.151",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-11-01T07:51:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.2.30.59",
+    "destination_ip": "192.168.0.232",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-11-11T19:57:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.8.248.55",
+    "destination_ip": "192.168.4.34",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-11-22T12:36:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.13.97.25",
+    "destination_ip": "192.168.0.169",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-11-22T06:06:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.1.50.16",
+    "destination_ip": "192.168.3.187",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-11-09T15:45:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.229.36",
+    "destination_ip": "192.168.3.47",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-11-04T10:20:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.50.13",
+    "destination_ip": "192.168.5.139",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-11-11T18:11:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.5.208.125",
+    "destination_ip": "192.168.3.55",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-11-01T02:21:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.135.238",
+    "destination_ip": "192.168.3.74",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 32,
+    "timestamp": "2026-11-23T03:34:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.4.97.76",
+    "destination_ip": "192.168.1.248",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 33,
+    "timestamp": "2026-11-03T18:34:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.10.29.13",
+    "destination_ip": "192.168.4.123",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 34,
+    "timestamp": "2026-11-04T15:30:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.5.35.153",
+    "destination_ip": "192.168.0.173",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 35,
+    "timestamp": "2026-11-12T04:55:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.20.159",
+    "destination_ip": "192.168.0.108",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 36,
+    "timestamp": "2026-11-12T20:49:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.6.160.62",
+    "destination_ip": "192.168.2.102",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 37,
+    "timestamp": "2026-11-21T19:24:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.10.37.3",
+    "destination_ip": "192.168.3.160",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 38,
+    "timestamp": "2026-11-10T16:49:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.16.135.34",
+    "destination_ip": "192.168.2.226",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 39,
+    "timestamp": "2026-11-08T04:18:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.14.154.157",
+    "destination_ip": "192.168.5.136",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 40,
+    "timestamp": "2026-11-14T15:00:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.3.68.68",
+    "destination_ip": "192.168.0.228",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 41,
+    "timestamp": "2026-11-13T09:28:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.9.107.184",
+    "destination_ip": "192.168.2.53",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 42,
+    "timestamp": "2026-11-03T07:29:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.2.216.213",
+    "destination_ip": "192.168.2.12",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 43,
+    "timestamp": "2026-11-12T22:07:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.5.226.142",
+    "destination_ip": "192.168.5.110",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 44,
+    "timestamp": "2026-11-07T18:48:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.18.214",
+    "destination_ip": "192.168.2.150",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 45,
+    "timestamp": "2026-11-02T21:41:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.186.231",
+    "destination_ip": "192.168.0.231",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 46,
+    "timestamp": "2026-11-05T16:16:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.11.208.250",
+    "destination_ip": "192.168.4.192",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 47,
+    "timestamp": "2026-11-09T01:23:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.13.12.46",
+    "destination_ip": "192.168.5.237",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 48,
+    "timestamp": "2026-11-12T07:03:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.8.81.202",
+    "destination_ip": "192.168.5.28",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 49,
+    "timestamp": "2026-11-11T02:57:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.6.235.90",
+    "destination_ip": "192.168.2.211",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 50,
+    "timestamp": "2026-11-09T18:56:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.168.72",
+    "destination_ip": "192.168.0.248",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 51,
+    "timestamp": "2026-11-19T04:33:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.17.169.241",
+    "destination_ip": "192.168.0.30",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 52,
+    "timestamp": "2026-11-13T01:57:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.1.55.153",
+    "destination_ip": "192.168.3.89",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 53,
+    "timestamp": "2026-11-06T06:18:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.12.97.66",
+    "destination_ip": "192.168.0.182",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 54,
+    "timestamp": "2026-11-09T23:12:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.11.220.18",
+    "destination_ip": "192.168.5.236",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 55,
+    "timestamp": "2026-11-06T16:07:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.158.171",
+    "destination_ip": "192.168.3.84",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 56,
+    "timestamp": "2026-11-06T19:01:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.6.215.171",
+    "destination_ip": "192.168.3.174",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 57,
+    "timestamp": "2026-11-19T11:32:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.17.0.78",
+    "destination_ip": "192.168.2.54",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 58,
+    "timestamp": "2026-11-15T15:58:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.14.226.114",
+    "destination_ip": "192.168.5.55",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 59,
+    "timestamp": "2026-11-08T17:20:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.2.145.132",
+    "destination_ip": "192.168.5.163",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 60,
+    "timestamp": "2026-11-11T16:32:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.9.115.207",
+    "destination_ip": "192.168.1.38",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 61,
+    "timestamp": "2026-11-22T14:58:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.19.37.117",
+    "destination_ip": "192.168.3.227",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 62,
+    "timestamp": "2026-11-18T11:24:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.15.204.63",
+    "destination_ip": "192.168.1.168",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 63,
+    "timestamp": "2026-11-10T23:01:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.5.237.13",
+    "destination_ip": "192.168.4.64",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 64,
+    "timestamp": "2026-11-22T03:30:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.16.162.244",
+    "destination_ip": "192.168.3.157",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 65,
+    "timestamp": "2026-11-21T07:03:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.5.243.116",
+    "destination_ip": "192.168.2.193",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 66,
+    "timestamp": "2026-11-23T01:18:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.122.71",
+    "destination_ip": "192.168.3.20",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 67,
+    "timestamp": "2026-11-15T13:12:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.41.36",
+    "destination_ip": "192.168.1.60",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 68,
+    "timestamp": "2026-11-10T17:41:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.2.212.105",
+    "destination_ip": "192.168.2.139",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 69,
+    "timestamp": "2026-11-20T02:54:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.10.220",
+    "destination_ip": "192.168.4.98",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 70,
+    "timestamp": "2026-11-14T14:09:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.12.214.138",
+    "destination_ip": "192.168.5.189",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 71,
+    "timestamp": "2026-11-23T05:16:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.7.139.112",
+    "destination_ip": "192.168.3.8",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 72,
+    "timestamp": "2026-11-19T09:37:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.5.239.236",
+    "destination_ip": "192.168.1.252",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 73,
+    "timestamp": "2026-11-18T22:22:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.13.22",
+    "destination_ip": "192.168.5.110",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 74,
+    "timestamp": "2026-11-12T20:09:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.167.55",
+    "destination_ip": "192.168.3.84",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 75,
+    "timestamp": "2026-11-20T04:27:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.8.41.121",
+    "destination_ip": "192.168.0.192",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 76,
+    "timestamp": "2026-11-16T22:15:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.7.35.200",
+    "destination_ip": "192.168.5.11",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 77,
+    "timestamp": "2026-11-01T22:15:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.19.78.62",
+    "destination_ip": "192.168.1.122",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 78,
+    "timestamp": "2026-11-22T03:56:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.8.188.43",
+    "destination_ip": "192.168.4.156",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 79,
+    "timestamp": "2026-11-05T22:04:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.18.13.238",
+    "destination_ip": "192.168.2.148",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 80,
+    "timestamp": "2026-11-10T00:37:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.2.124.27",
+    "destination_ip": "192.168.5.198",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 81,
+    "timestamp": "2026-11-06T12:13:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.18.21.89",
+    "destination_ip": "192.168.4.110",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 82,
+    "timestamp": "2026-11-16T12:42:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.0.215.211",
+    "destination_ip": "192.168.3.28",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 83,
+    "timestamp": "2026-11-21T22:09:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.4.222.46",
+    "destination_ip": "192.168.5.134",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 84,
+    "timestamp": "2026-11-23T00:06:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.14.223.212",
+    "destination_ip": "192.168.5.152",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 85,
+    "timestamp": "2026-11-04T22:39:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.8.230.63",
+    "destination_ip": "192.168.3.146",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 86,
+    "timestamp": "2026-11-02T07:20:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.15.166.47",
+    "destination_ip": "192.168.3.55",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 87,
+    "timestamp": "2026-11-13T13:45:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.17.5.133",
+    "destination_ip": "192.168.1.22",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 88,
+    "timestamp": "2026-11-11T22:29:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.15.251.115",
+    "destination_ip": "192.168.0.24",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 89,
+    "timestamp": "2026-11-12T01:45:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.188.122",
+    "destination_ip": "192.168.4.136",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 90,
+    "timestamp": "2026-11-16T01:18:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.11.232.70",
+    "destination_ip": "192.168.2.65",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 91,
+    "timestamp": "2026-11-15T08:39:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.3.94.50",
+    "destination_ip": "192.168.1.190",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 92,
+    "timestamp": "2026-11-13T21:06:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.3.99.76",
+    "destination_ip": "192.168.1.93",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 93,
+    "timestamp": "2026-11-06T18:15:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.8.23.250",
+    "destination_ip": "192.168.0.142",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 94,
+    "timestamp": "2026-11-23T08:10:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.3.6.147",
+    "destination_ip": "192.168.2.121",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 95,
+    "timestamp": "2026-11-03T08:07:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.8.244.30",
+    "destination_ip": "192.168.0.103",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 96,
+    "timestamp": "2026-11-03T10:33:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.4.76.208",
+    "destination_ip": "192.168.4.243",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 97,
+    "timestamp": "2026-11-06T09:22:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.17.213.156",
+    "destination_ip": "192.168.4.203",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 98,
+    "timestamp": "2026-11-18T07:28:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.14.226.77",
+    "destination_ip": "192.168.4.254",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 99,
+    "timestamp": "2026-11-03T17:47:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.19.50.243",
+    "destination_ip": "192.168.1.161",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 100,
+    "timestamp": "2026-11-08T03:32:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.7.88.142",
+    "destination_ip": "192.168.0.41",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 101,
+    "timestamp": "2026-11-22T09:16:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.16.60",
+    "destination_ip": "192.168.2.181",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 102,
+    "timestamp": "2026-11-04T05:44:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.7.135.202",
+    "destination_ip": "192.168.5.151",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 103,
+    "timestamp": "2026-11-11T05:33:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.76.233",
+    "destination_ip": "192.168.2.212",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 104,
+    "timestamp": "2026-11-14T23:59:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.19.147.113",
+    "destination_ip": "192.168.0.120",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 105,
+    "timestamp": "2026-11-13T09:21:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.16.252.113",
+    "destination_ip": "192.168.0.154",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 106,
+    "timestamp": "2026-11-12T09:28:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.0.46.59",
+    "destination_ip": "192.168.5.215",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 107,
+    "timestamp": "2026-11-13T06:22:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.18.20.196",
+    "destination_ip": "192.168.1.121",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 108,
+    "timestamp": "2026-11-13T15:49:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.223.163",
+    "destination_ip": "192.168.3.249",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 109,
+    "timestamp": "2026-11-16T04:03:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.10.53.220",
+    "destination_ip": "192.168.1.85",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 110,
+    "timestamp": "2026-11-19T05:24:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.17.18.117",
+    "destination_ip": "192.168.0.81",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 111,
+    "timestamp": "2026-11-19T09:28:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.16.0.169",
+    "destination_ip": "192.168.4.119",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 112,
+    "timestamp": "2026-11-17T11:09:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.19.255.161",
+    "destination_ip": "192.168.3.195",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 113,
+    "timestamp": "2026-11-06T23:06:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.9.224.226",
+    "destination_ip": "192.168.5.125",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 114,
+    "timestamp": "2026-11-11T21:22:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.5.159.142",
+    "destination_ip": "192.168.0.142",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 115,
+    "timestamp": "2026-11-06T03:55:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.60.166",
+    "destination_ip": "192.168.1.128",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 116,
+    "timestamp": "2026-11-19T21:49:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.15.241.63",
+    "destination_ip": "192.168.3.142",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 117,
+    "timestamp": "2026-11-07T05:06:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.2.141.198",
+    "destination_ip": "192.168.3.88",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 118,
+    "timestamp": "2026-11-13T20:56:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.9.250.222",
+    "destination_ip": "192.168.1.115",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 119,
+    "timestamp": "2026-11-18T04:00:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.14.164.223",
+    "destination_ip": "192.168.1.252",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 120,
+    "timestamp": "2026-11-19T16:40:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.1.162.191",
+    "destination_ip": "192.168.3.181",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 121,
+    "timestamp": "2026-11-07T22:08:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.15.18.33",
+    "destination_ip": "192.168.4.248",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 122,
+    "timestamp": "2026-11-21T00:55:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.3.233.4",
+    "destination_ip": "192.168.5.37",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 123,
+    "timestamp": "2026-11-04T09:43:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.15.135.87",
+    "destination_ip": "192.168.4.178",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 124,
+    "timestamp": "2026-11-15T22:52:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.194.245",
+    "destination_ip": "192.168.2.161",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 125,
+    "timestamp": "2026-11-04T02:44:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.7.147.59",
+    "destination_ip": "192.168.5.24",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 126,
+    "timestamp": "2026-11-05T13:46:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.14.85.178",
+    "destination_ip": "192.168.2.232",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 127,
+    "timestamp": "2026-11-03T13:17:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.183.96",
+    "destination_ip": "192.168.3.38",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 128,
+    "timestamp": "2026-11-09T04:40:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.89.21",
+    "destination_ip": "192.168.4.223",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 129,
+    "timestamp": "2026-11-23T15:35:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.18.73.60",
+    "destination_ip": "192.168.3.164",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 130,
+    "timestamp": "2026-11-01T10:15:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.147.174",
+    "destination_ip": "192.168.4.41",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 131,
+    "timestamp": "2026-11-14T14:45:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.20.217.177",
+    "destination_ip": "192.168.2.117",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 132,
+    "timestamp": "2026-11-22T23:47:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.3.121.98",
+    "destination_ip": "192.168.4.92",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 133,
+    "timestamp": "2026-11-14T10:28:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.0.202.71",
+    "destination_ip": "192.168.0.145",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 134,
+    "timestamp": "2026-11-14T00:36:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.7.180.57",
+    "destination_ip": "192.168.5.49",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 135,
+    "timestamp": "2026-11-07T05:23:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.20.49.232",
+    "destination_ip": "192.168.5.166",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 136,
+    "timestamp": "2026-11-02T12:26:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.18.186.188",
+    "destination_ip": "192.168.1.24",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 137,
+    "timestamp": "2026-11-08T23:50:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.6.67.202",
+    "destination_ip": "192.168.4.225",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 138,
+    "timestamp": "2026-11-13T09:40:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.131.234",
+    "destination_ip": "192.168.3.248",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 139,
+    "timestamp": "2026-11-06T05:47:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.14.38.37",
+    "destination_ip": "192.168.1.221",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 140,
+    "timestamp": "2026-11-18T22:58:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.0.135.138",
+    "destination_ip": "192.168.0.117",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 141,
+    "timestamp": "2026-11-12T22:21:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.18.195.211",
+    "destination_ip": "192.168.5.241",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 142,
+    "timestamp": "2026-11-22T10:58:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.0.167.235",
+    "destination_ip": "192.168.4.57",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 143,
+    "timestamp": "2026-11-14T18:04:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.20.209.30",
+    "destination_ip": "192.168.1.12",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 144,
+    "timestamp": "2026-11-06T06:50:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.3.120.228",
+    "destination_ip": "192.168.4.35",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 145,
+    "timestamp": "2026-11-20T01:47:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.18.79.227",
+    "destination_ip": "192.168.3.168",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 146,
+    "timestamp": "2026-11-13T17:33:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.1.189.56",
+    "destination_ip": "192.168.3.114",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 147,
+    "timestamp": "2026-11-17T17:13:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.183.16",
+    "destination_ip": "192.168.3.71",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 148,
+    "timestamp": "2026-11-21T16:40:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.2.108.165",
+    "destination_ip": "192.168.5.153",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 149,
+    "timestamp": "2026-11-12T02:02:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.4.105.18",
+    "destination_ip": "192.168.4.54",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 150,
+    "timestamp": "2026-11-11T14:29:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.10.75.202",
+    "destination_ip": "192.168.4.1",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 151,
+    "timestamp": "2026-11-12T09:46:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.5.56.170",
+    "destination_ip": "192.168.0.34",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 152,
+    "timestamp": "2026-11-11T19:53:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.18.165.5",
+    "destination_ip": "192.168.1.68",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 153,
+    "timestamp": "2026-11-06T04:08:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.2.243.115",
+    "destination_ip": "192.168.2.132",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 154,
+    "timestamp": "2026-11-11T01:59:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.19.22.187",
+    "destination_ip": "192.168.5.134",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 155,
+    "timestamp": "2026-11-02T10:01:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.1.245.217",
+    "destination_ip": "192.168.3.110",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 156,
+    "timestamp": "2026-11-21T04:29:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.2.41.83",
+    "destination_ip": "192.168.4.38",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 157,
+    "timestamp": "2026-11-15T19:11:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.150.117",
+    "destination_ip": "192.168.4.155",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 158,
+    "timestamp": "2026-11-06T04:58:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.20.110.111",
+    "destination_ip": "192.168.3.228",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 159,
+    "timestamp": "2026-11-21T15:20:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.12.212.187",
+    "destination_ip": "192.168.0.81",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 160,
+    "timestamp": "2026-11-18T00:50:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.4.242.18",
+    "destination_ip": "192.168.0.213",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 161,
+    "timestamp": "2026-11-17T23:01:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.4.30.151",
+    "destination_ip": "192.168.4.144",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 162,
+    "timestamp": "2026-11-17T02:13:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.13.26.248",
+    "destination_ip": "192.168.2.154",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 163,
+    "timestamp": "2026-11-10T16:22:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.4.246.58",
+    "destination_ip": "192.168.0.90",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 164,
+    "timestamp": "2026-11-13T16:16:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.115.207",
+    "destination_ip": "192.168.3.217",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 165,
+    "timestamp": "2026-11-02T04:40:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.19.136.8",
+    "destination_ip": "192.168.1.70",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 166,
+    "timestamp": "2026-11-09T06:08:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.4.205.18",
+    "destination_ip": "192.168.1.190",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 167,
+    "timestamp": "2026-11-10T18:58:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.12.214.117",
+    "destination_ip": "192.168.2.41",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 168,
+    "timestamp": "2026-11-04T20:47:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.1.79.41",
+    "destination_ip": "192.168.4.13",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 169,
+    "timestamp": "2026-11-20T07:08:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.15.226.107",
+    "destination_ip": "192.168.2.56",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 170,
+    "timestamp": "2026-11-06T01:07:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.249.135",
+    "destination_ip": "192.168.5.79",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 171,
+    "timestamp": "2026-11-03T11:50:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.0.104.78",
+    "destination_ip": "192.168.1.197",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 172,
+    "timestamp": "2026-11-06T11:03:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.0.254.192",
+    "destination_ip": "192.168.3.45",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 173,
+    "timestamp": "2026-11-11T11:20:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.16.181.19",
+    "destination_ip": "192.168.3.221",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 174,
+    "timestamp": "2026-11-04T13:02:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.10.219.147",
+    "destination_ip": "192.168.3.182",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 175,
+    "timestamp": "2026-11-01T22:46:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.10.87.206",
+    "destination_ip": "192.168.4.118",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 176,
+    "timestamp": "2026-11-05T19:37:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.7.223.151",
+    "destination_ip": "192.168.3.135",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 177,
+    "timestamp": "2026-11-16T10:50:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.7.170.200",
+    "destination_ip": "192.168.1.20",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 178,
+    "timestamp": "2026-11-09T19:47:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.11.179.187",
+    "destination_ip": "192.168.5.209",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 179,
+    "timestamp": "2026-11-12T15:35:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.6.88.155",
+    "destination_ip": "192.168.1.195",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 180,
+    "timestamp": "2026-11-23T11:42:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.14.229.175",
+    "destination_ip": "192.168.4.165",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 181,
+    "timestamp": "2026-11-15T09:18:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.4.225.18",
+    "destination_ip": "192.168.3.114",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 182,
+    "timestamp": "2026-11-17T00:24:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.16.37.80",
+    "destination_ip": "192.168.3.116",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 183,
+    "timestamp": "2026-11-14T01:33:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.2.46.158",
+    "destination_ip": "192.168.4.130",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 184,
+    "timestamp": "2026-11-02T20:48:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.14.96.83",
+    "destination_ip": "192.168.4.122",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 185,
+    "timestamp": "2026-11-21T12:05:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.3.175.252",
+    "destination_ip": "192.168.5.22",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 186,
+    "timestamp": "2026-11-12T06:36:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.224.135",
+    "destination_ip": "192.168.4.157",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 187,
+    "timestamp": "2026-11-13T20:59:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.12.209.199",
+    "destination_ip": "192.168.2.174",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 188,
+    "timestamp": "2026-11-16T05:31:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.2.168.25",
+    "destination_ip": "192.168.4.174",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 189,
+    "timestamp": "2026-11-07T20:14:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.10.41.150",
+    "destination_ip": "192.168.5.37",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 190,
+    "timestamp": "2026-11-18T20:07:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.4.43.80",
+    "destination_ip": "192.168.4.97",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 191,
+    "timestamp": "2026-11-05T06:04:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.20.216.131",
+    "destination_ip": "192.168.2.5",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 192,
+    "timestamp": "2026-11-10T17:57:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.10.248.50",
+    "destination_ip": "192.168.1.36",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 193,
+    "timestamp": "2026-11-05T14:28:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.16.19.170",
+    "destination_ip": "192.168.2.225",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 194,
+    "timestamp": "2026-11-08T00:29:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.5.92.213",
+    "destination_ip": "192.168.5.198",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 195,
+    "timestamp": "2026-11-02T23:43:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.13.186.174",
+    "destination_ip": "192.168.5.61",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 196,
+    "timestamp": "2026-11-21T10:20:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.7.122.80",
+    "destination_ip": "192.168.3.232",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 197,
+    "timestamp": "2026-11-21T01:14:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.14.144.200",
+    "destination_ip": "192.168.3.129",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 198,
+    "timestamp": "2026-11-10T02:07:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.19.70.224",
+    "destination_ip": "192.168.2.14",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 199,
+    "timestamp": "2026-11-05T16:03:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.16.63.73",
+    "destination_ip": "192.168.0.196",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 200,
+    "timestamp": "2026-11-07T16:56:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.13.46.243",
+    "destination_ip": "192.168.1.210",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 201,
+    "timestamp": "2026-11-19T21:10:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.1.202.129",
+    "destination_ip": "192.168.2.61",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 202,
+    "timestamp": "2026-11-02T06:47:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.10.50.215",
+    "destination_ip": "192.168.5.167",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 203,
+    "timestamp": "2026-11-14T01:20:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.15.71.195",
+    "destination_ip": "192.168.5.121",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 204,
+    "timestamp": "2026-11-04T14:32:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.0.131.56",
+    "destination_ip": "192.168.1.141",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 205,
+    "timestamp": "2026-11-14T02:41:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.7.154.32",
+    "destination_ip": "192.168.0.62",
+    "protocol": "HTTPS",
+    "destination_port": 8080
+  },
+  {
+    "id": 206,
+    "timestamp": "2026-11-21T19:17:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.2.56.215",
+    "destination_ip": "192.168.3.153",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 207,
+    "timestamp": "2026-11-12T00:15:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.4.149.110",
+    "destination_ip": "192.168.0.158",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 208,
+    "timestamp": "2026-11-09T12:35:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.2.184.18",
+    "destination_ip": "192.168.4.140",
+    "protocol": "DNS",
+    "destination_port": 3389
+  },
+  {
+    "id": 209,
+    "timestamp": "2026-11-18T18:28:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.15.22.163",
+    "destination_ip": "192.168.3.252",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 210,
+    "timestamp": "2026-11-17T06:02:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.2.176.62",
+    "destination_ip": "192.168.5.169",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 211,
+    "timestamp": "2026-11-16T03:11:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.4.22.91",
+    "destination_ip": "192.168.4.87",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 212,
+    "timestamp": "2026-11-22T18:41:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.20.93.208",
+    "destination_ip": "192.168.1.17",
+    "protocol": "HTTPS",
+    "destination_port": 22
+  },
+  {
+    "id": 213,
+    "timestamp": "2026-11-02T23:50:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.6.21.81",
+    "destination_ip": "192.168.2.132",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 214,
+    "timestamp": "2026-11-02T15:59:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.20.97.74",
+    "destination_ip": "192.168.2.221",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 215,
+    "timestamp": "2026-11-06T15:57:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.11.223.228",
+    "destination_ip": "192.168.3.191",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 216,
+    "timestamp": "2026-11-09T12:03:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.15.254.95",
+    "destination_ip": "192.168.4.69",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 217,
+    "timestamp": "2026-11-20T14:20:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.19.92.140",
+    "destination_ip": "192.168.2.83",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 218,
+    "timestamp": "2026-11-14T10:55:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.228.155",
+    "destination_ip": "192.168.5.110",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 219,
+    "timestamp": "2026-11-21T08:23:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.1.180.158",
+    "destination_ip": "192.168.3.71",
+    "protocol": "TCP",
+    "destination_port": 22
+  },
+  {
+    "id": 220,
+    "timestamp": "2026-11-19T11:41:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.11.81.244",
+    "destination_ip": "192.168.0.37",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 221,
+    "timestamp": "2026-11-02T14:00:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.4.34.61",
+    "destination_ip": "192.168.5.94",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 222,
+    "timestamp": "2026-11-02T11:22:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.19.78.174",
+    "destination_ip": "192.168.3.243",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 223,
+    "timestamp": "2026-11-04T11:58:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.18.70.136",
+    "destination_ip": "192.168.2.102",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 224,
+    "timestamp": "2026-11-06T03:54:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.0.95.128",
+    "destination_ip": "192.168.4.100",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 225,
+    "timestamp": "2026-11-12T20:18:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.109.157",
+    "destination_ip": "192.168.2.178",
+    "protocol": "HTTPS",
+    "destination_port": 53
+  },
+  {
+    "id": 226,
+    "timestamp": "2026-11-04T08:53:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.88.231",
+    "destination_ip": "192.168.5.114",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 227,
+    "timestamp": "2026-11-15T13:04:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.11.33.141",
+    "destination_ip": "192.168.4.75",
+    "protocol": "HTTP",
+    "destination_port": 53
+  },
+  {
+    "id": 228,
+    "timestamp": "2026-11-08T22:09:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.11.114.32",
+    "destination_ip": "192.168.1.203",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 229,
+    "timestamp": "2026-11-02T04:42:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.11.188.120",
+    "destination_ip": "192.168.4.34",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 230,
+    "timestamp": "2026-11-19T02:53:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.15.210.197",
+    "destination_ip": "192.168.3.211",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 231,
+    "timestamp": "2026-11-15T10:16:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.37.116",
+    "destination_ip": "192.168.3.175",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 232,
+    "timestamp": "2026-11-09T06:45:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.4.221.129",
+    "destination_ip": "192.168.0.213",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 233,
+    "timestamp": "2026-11-08T11:50:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.5.165.240",
+    "destination_ip": "192.168.5.58",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 234,
+    "timestamp": "2026-11-04T14:08:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.8.100.163",
+    "destination_ip": "192.168.4.71",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 235,
+    "timestamp": "2026-11-05T06:02:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.16.86.152",
+    "destination_ip": "192.168.4.40",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 236,
+    "timestamp": "2026-11-16T08:46:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.18.21.212",
+    "destination_ip": "192.168.0.21",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 237,
+    "timestamp": "2026-11-13T01:04:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.20.107.197",
+    "destination_ip": "192.168.4.107",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 238,
+    "timestamp": "2026-11-14T04:23:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.154.124",
+    "destination_ip": "192.168.1.207",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 239,
+    "timestamp": "2026-11-03T17:26:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.225.107",
+    "destination_ip": "192.168.3.119",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 240,
+    "timestamp": "2026-11-15T05:25:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.10.176.250",
+    "destination_ip": "192.168.3.34",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 241,
+    "timestamp": "2026-11-15T12:33:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.7.238.32",
+    "destination_ip": "192.168.2.116",
+    "protocol": "UDP",
+    "destination_port": 53
+  },
+  {
+    "id": 242,
+    "timestamp": "2026-11-14T04:59:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.214.64",
+    "destination_ip": "192.168.1.209",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 243,
+    "timestamp": "2026-11-09T15:20:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.5.255.132",
+    "destination_ip": "192.168.3.128",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 244,
+    "timestamp": "2026-11-18T21:31:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.16.234.248",
+    "destination_ip": "192.168.1.56",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 245,
+    "timestamp": "2026-11-13T19:18:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.15.240.74",
+    "destination_ip": "192.168.4.3",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 246,
+    "timestamp": "2026-11-13T00:52:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.11.206.94",
+    "destination_ip": "192.168.0.103",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 247,
+    "timestamp": "2026-11-17T11:58:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.17.147.19",
+    "destination_ip": "192.168.3.130",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 248,
+    "timestamp": "2026-11-06T09:46:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.4.49.101",
+    "destination_ip": "192.168.2.204",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 249,
+    "timestamp": "2026-11-07T13:34:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.6.205.129",
+    "destination_ip": "192.168.0.12",
+    "protocol": "TCP",
+    "destination_port": 53
+  },
+  {
+    "id": 250,
+    "timestamp": "2026-11-22T13:27:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.16.233.39",
+    "destination_ip": "192.168.4.229",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 251,
+    "timestamp": "2026-11-15T11:55:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.201.254",
+    "destination_ip": "192.168.4.190",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 252,
+    "timestamp": "2026-11-23T07:02:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.18.153.122",
+    "destination_ip": "192.168.0.95",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 253,
+    "timestamp": "2026-11-19T22:58:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.18.157.204",
+    "destination_ip": "192.168.5.224",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 254,
+    "timestamp": "2026-11-11T08:32:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.1.245.44",
+    "destination_ip": "192.168.4.162",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 255,
+    "timestamp": "2026-11-12T00:32:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.1.56.49",
+    "destination_ip": "192.168.0.113",
+    "protocol": "HTTP",
+    "destination_port": 443
+  },
+  {
+    "id": 256,
+    "timestamp": "2026-11-10T06:42:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.13.241.224",
+    "destination_ip": "192.168.5.187",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 257,
+    "timestamp": "2026-11-10T10:28:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.166.170",
+    "destination_ip": "192.168.3.135",
+    "protocol": "HTTPS",
+    "destination_port": 80
+  },
+  {
+    "id": 258,
+    "timestamp": "2026-11-21T22:04:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.17.175.140",
+    "destination_ip": "192.168.2.174",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 259,
+    "timestamp": "2026-11-12T05:15:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.8.152.58",
+    "destination_ip": "192.168.2.198",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 260,
+    "timestamp": "2026-11-23T06:07:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.10.245.90",
+    "destination_ip": "192.168.4.240",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 261,
+    "timestamp": "2026-11-18T06:43:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.12.176.245",
+    "destination_ip": "192.168.1.75",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 262,
+    "timestamp": "2026-11-04T14:19:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.11.226.168",
+    "destination_ip": "192.168.2.192",
+    "protocol": "HTTPS",
+    "destination_port": 53
+  },
+  {
+    "id": 263,
+    "timestamp": "2026-11-13T08:08:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.17.139.36",
+    "destination_ip": "192.168.0.158",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 264,
+    "timestamp": "2026-11-11T06:29:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.119.14",
+    "destination_ip": "192.168.0.106",
+    "protocol": "HTTP",
+    "destination_port": 8080
+  },
+  {
+    "id": 265,
+    "timestamp": "2026-11-07T06:09:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.0.80.105",
+    "destination_ip": "192.168.5.240",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 266,
+    "timestamp": "2026-11-14T01:44:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.10.146.166",
+    "destination_ip": "192.168.0.233",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 267,
+    "timestamp": "2026-11-02T16:44:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.5.213.226",
+    "destination_ip": "192.168.1.240",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 268,
+    "timestamp": "2026-11-09T11:30:00",
+    "signature": "Phishing email",
+    "severity": "medium",
+    "source_ip": "10.9.19.3",
+    "destination_ip": "192.168.2.146",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 269,
+    "timestamp": "2026-11-16T05:57:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.9.232.254",
+    "destination_ip": "192.168.5.140",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 270,
+    "timestamp": "2026-11-07T02:34:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.16.239.70",
+    "destination_ip": "192.168.1.208",
+    "protocol": "TCP",
+    "destination_port": 80
+  },
+  {
+    "id": 271,
+    "timestamp": "2026-11-21T21:15:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.131.184",
+    "destination_ip": "192.168.1.4",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 272,
+    "timestamp": "2026-11-09T18:59:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.5.207.212",
+    "destination_ip": "192.168.3.132",
+    "protocol": "HTTP",
+    "destination_port": 22
+  },
+  {
+    "id": 273,
+    "timestamp": "2026-11-05T08:11:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.5.71.123",
+    "destination_ip": "192.168.2.240",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 274,
+    "timestamp": "2026-11-11T17:15:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.14.136.245",
+    "destination_ip": "192.168.2.78",
+    "protocol": "DNS",
+    "destination_port": 8080
+  },
+  {
+    "id": 275,
+    "timestamp": "2026-11-12T21:41:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.20.184.178",
+    "destination_ip": "192.168.1.16",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 276,
+    "timestamp": "2026-11-19T10:49:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.16.159.177",
+    "destination_ip": "192.168.0.164",
+    "protocol": "HTTP",
+    "destination_port": 80
+  },
+  {
+    "id": 277,
+    "timestamp": "2026-11-10T23:20:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.4.244.40",
+    "destination_ip": "192.168.3.192",
+    "protocol": "DNS",
+    "destination_port": 80
+  },
+  {
+    "id": 278,
+    "timestamp": "2026-11-22T10:16:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.17.111.196",
+    "destination_ip": "192.168.1.175",
+    "protocol": "DNS",
+    "destination_port": 22
+  },
+  {
+    "id": 279,
+    "timestamp": "2026-11-17T11:09:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.2.57.16",
+    "destination_ip": "192.168.4.232",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 280,
+    "timestamp": "2026-11-07T19:40:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.5.167.219",
+    "destination_ip": "192.168.4.114",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 281,
+    "timestamp": "2026-11-23T05:55:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.2.228.208",
+    "destination_ip": "192.168.0.117",
+    "protocol": "UDP",
+    "destination_port": 3389
+  },
+  {
+    "id": 282,
+    "timestamp": "2026-11-03T15:03:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.17.236.173",
+    "destination_ip": "192.168.2.186",
+    "protocol": "TCP",
+    "destination_port": 443
+  },
+  {
+    "id": 283,
+    "timestamp": "2026-11-01T03:17:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.6.37.12",
+    "destination_ip": "192.168.3.89",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 284,
+    "timestamp": "2026-11-04T03:23:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.15.16.74",
+    "destination_ip": "192.168.3.47",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 285,
+    "timestamp": "2026-11-20T03:08:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.11.195.115",
+    "destination_ip": "192.168.3.97",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 286,
+    "timestamp": "2026-11-07T01:15:00",
+    "signature": "DDoS attack",
+    "severity": "critical",
+    "source_ip": "10.20.178.31",
+    "destination_ip": "192.168.1.138",
+    "protocol": "HTTPS",
+    "destination_port": 3389
+  },
+  {
+    "id": 287,
+    "timestamp": "2026-11-11T03:14:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.0.11.251",
+    "destination_ip": "192.168.2.119",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 288,
+    "timestamp": "2026-11-11T10:51:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.7.235.89",
+    "destination_ip": "192.168.1.71",
+    "protocol": "UDP",
+    "destination_port": 8080
+  },
+  {
+    "id": 289,
+    "timestamp": "2026-11-02T11:11:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.13.8.62",
+    "destination_ip": "192.168.1.18",
+    "protocol": "TCP",
+    "destination_port": 3389
+  },
+  {
+    "id": 290,
+    "timestamp": "2026-11-03T05:10:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.7.22.103",
+    "destination_ip": "192.168.3.60",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 291,
+    "timestamp": "2026-11-03T13:39:00",
+    "signature": "Malware detected",
+    "severity": "critical",
+    "source_ip": "10.4.148.60",
+    "destination_ip": "192.168.5.148",
+    "protocol": "HTTP",
+    "destination_port": 3389
+  },
+  {
+    "id": 292,
+    "timestamp": "2026-11-15T14:15:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.7.154.225",
+    "destination_ip": "192.168.1.253",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 293,
+    "timestamp": "2026-11-13T12:32:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.1.89.161",
+    "destination_ip": "192.168.5.110",
+    "protocol": "DNS",
+    "destination_port": 443
+  },
+  {
+    "id": 294,
+    "timestamp": "2026-11-16T16:11:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.20.195.202",
+    "destination_ip": "192.168.4.82",
+    "protocol": "HTTPS",
+    "destination_port": 443
+  },
+  {
+    "id": 295,
+    "timestamp": "2026-11-18T03:11:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.5.242.62",
+    "destination_ip": "192.168.1.77",
+    "protocol": "UDP",
+    "destination_port": 443
+  },
+  {
+    "id": 296,
+    "timestamp": "2026-11-19T18:45:00",
+    "signature": "Unauthorized access",
+    "severity": "high",
+    "source_ip": "10.13.68.100",
+    "destination_ip": "192.168.1.66",
+    "protocol": "UDP",
+    "destination_port": 80
+  },
+  {
+    "id": 297,
+    "timestamp": "2026-11-21T11:17:00",
+    "signature": "SQL injection attempt",
+    "severity": "high",
+    "source_ip": "10.11.47.138",
+    "destination_ip": "192.168.5.213",
+    "protocol": "UDP",
+    "destination_port": 22
+  },
+  {
+    "id": 298,
+    "timestamp": "2026-11-02T19:11:00",
+    "signature": "SSH brute force",
+    "severity": "high",
+    "source_ip": "10.2.96.206",
+    "destination_ip": "192.168.4.186",
+    "protocol": "DNS",
+    "destination_port": 53
+  },
+  {
+    "id": 299,
+    "timestamp": "2026-11-16T03:41:00",
+    "signature": "Port scan",
+    "severity": "medium",
+    "source_ip": "10.9.7.55",
+    "destination_ip": "192.168.1.247",
+    "protocol": "TCP",
+    "destination_port": 8080
+  },
+  {
+    "id": 300,
+    "timestamp": "2026-11-22T19:06:00",
+    "signature": "Suspicious login",
+    "severity": "low",
+    "source_ip": "10.7.104.102",
+    "destination_ip": "192.168.1.142",
+    "protocol": "HTTP",
+    "destination_port": 80
+  }
+]
